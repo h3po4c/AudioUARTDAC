@@ -1,0 +1,27 @@
+{
+    "configurations":
+    [
+        {
+            "name": "vscode_stm32_c_cpp_properties",
+
+            // Путь до компилятора GNU Arm Embedded Toolchain
+            "compilerPath": "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc.exe",
+
+            // Директории с заголовочнми файлами
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+
+            // Макроопредление с названием контроллера
+            // используется для конфигурации библиотек
+            "defines": [
+                "STM32F429xx",
+                "USE_FULL_LL_DRIVER"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

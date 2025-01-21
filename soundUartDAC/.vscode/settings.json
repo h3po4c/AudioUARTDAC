@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "stm32f429xx.h": "c",
+        "stm32f4xx_ll_rcc.h": "c",
+        "stm32f4xx_ll_utils.h": "c",
+        "math.h": "c",
+        "stm32f4xx_ll_tim.h": "c",
+        "stm32f4xx_ll_gpio.h": "c",
+        "main.h": "c",
+        "dma.h": "c",
+        "tim.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": true
+}
