@@ -47,7 +47,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t buffer[BUFFER_SIZE];
+uint8_t buffer[BUFFER_SIZE]; // audio buffer
 SystemState currentState = IDLE;
 uint8_t startFlag = 0;
 uint8_t startAudioFlag = 0;
