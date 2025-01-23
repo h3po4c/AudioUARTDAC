@@ -7,4 +7,4 @@ DMA+DAC
 (to do: change to USB, add stereo support, increase bit depth)
 
 PC:
-PyQt5 frontend(requires FFmpeg)
+PyQt frontend(requires FFmpeg)
